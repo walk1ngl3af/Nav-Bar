@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+    color: deepskyblue;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style: none;
+    background-color: black;
+    color: sandybrown;
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+}
+nav a, nav a:visited {
+    text-decoration: none;
+    padding: 8px 0px;
+    color: sandybrown;
+    width: 100%;
+}
+nav a:hover, nav a.active {
+    color: #e04f1f;
+    background-color: #5a340c;
+}
